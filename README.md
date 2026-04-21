@@ -1,16 +1,111 @@
-# React + Vite
+# Uniting Homes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uniting Homes is a Home Owners Association (HOA) management platform designed to centralize communication, complaint handling, and facility management within residential communities.
 
-Currently, two official plugins are available:
+The system replaces fragmented communication channels with a structured, role-based application for residents, staff, and administrators.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Complaint Management
 
-## Expanding the ESLint configuration
+* Create and track complaints
+* Status flow: Pending → In Progress → Resolved
+* Role-based actions for admin and staff
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Announcements
+
+* Admin-created announcements
+* Role-based visibility
+* Centralized communication for residents
+
+### Facility Reservations
+
+* Book common amenities (e.g., clubhouse, halls)
+* Track reservation status (Pending / Approved / Rejected)
+* View personal booking history
+
+### Maintenance and Billing
+
+* View dues and payment status
+* Basic expense visibility
+
+### Dashboard
+
+* Role-based dashboards
+* Summary of complaints and reservations
+* Real-time updates
+
+---
+
+## User Roles
+
+* **Admin**: Full system control and management
+* **Resident**: Raise complaints, make reservations, view updates
+* **Staff**: Handle assigned complaints
+
+---
+
+## Tech Stack
+
+* Frontend: React (Vite)
+* Backend: Supabase (Authentication + Database)
+* Routing: React Router
+* State Management: Context API
+* Deployment: Vercel
+
+---
+
+## Project Structure
+
+```text
+/src
+  /components
+  /pages
+  /context
+  /services
+  /hooks
+```
+
+---
+
+
+## Demo Login Credentials
+
+Add sample users here for evaluation.
+
+### Admin
+
+* Email: admin@unitinghomes.com
+* Password: Admin@123
+
+### Staff
+
+* Email: rashmi@unitinghomes.com
+* Password: staff1@123
+
+* Email: sunil@unitinghomes.com
+* Password: staff2@123
+
+### Resident 
+
+* Email: vikas@example.com
+* Password: user123
+
+* Email: aayush@example.com
+* Password: user123
+
+* Email: michael@example.com
+* Password: user123
+---
+
+## Notes
+
+* This project is designed as a production-style academic system.
+* Some workflows (such as user approval) are simplified for demonstration purposes.
+* All core features are fully functional.
+
+---
+
+
